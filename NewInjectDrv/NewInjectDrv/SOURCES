@@ -1,0 +1,26 @@
+TARGETNAME=Demo
+TARGETPATH=..\bin
+TARGETTYPE=DRIVER
+
+TARGETLIBS= \
+	$(DDK_LIB_PATH)\wdmsec.lib\
+	$(DDK_LIB_PATH)\libcntpr.lib
+
+#VMProtectDDK64.lib
+#VMProtectDDK32.lib
+
+#BUFFER_OVERFLOW_CHECKS=0
+#LINKER_FORCE_NO_DBG_SECTION=TRUE
+USE_MAPSYM = 1
+
+#C_DEFINES = $(C_DEFINES) -DSUPPORT_64BIT_OFFSET -DLIBDISTORM
+
+SOURCES= main.c\
+		 NewInjectApc.c\
+		 tools.c\
+		 hook.c\
+		 ldasm.c\
+		 list.c\
+		 debug.c\
+		 xde.c\
+		 drvversion.rc

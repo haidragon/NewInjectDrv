@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NewInjectDrv", "NewInjectDrv\NewInjectDrv.vcxproj", "{CD368866-9903-40C6-9A5F-789AC542F663}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NewInjectExe", "NewInjectExe\NewInjectExe.vcxproj", "{11DEB163-82D9-43D3-9450-3C501F517384}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD368866-9903-40C6-9A5F-789AC542F663}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CD368866-9903-40C6-9A5F-789AC542F663}.Debug|Win32.Build.0 = Debug|Win32
+		{CD368866-9903-40C6-9A5F-789AC542F663}.Release|Win32.ActiveCfg = Release|Win32
+		{CD368866-9903-40C6-9A5F-789AC542F663}.Release|Win32.Build.0 = Release|Win32
+		{11DEB163-82D9-43D3-9450-3C501F517384}.Debug|Win32.ActiveCfg = Debug|Win32
+		{11DEB163-82D9-43D3-9450-3C501F517384}.Debug|Win32.Build.0 = Debug|Win32
+		{11DEB163-82D9-43D3-9450-3C501F517384}.Release|Win32.ActiveCfg = Release|Win32
+		{11DEB163-82D9-43D3-9450-3C501F517384}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,56 @@
+MUI_386_OBJECTS= \
+    $(_OBJ_DIR)\i386\drvversion.res
+
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\drvversion.res \
+    $(_OBJ_DIR)\i386\main.obj \
+    $(_OBJ_DIR)\i386\newinjectapc.obj \
+    $(_OBJ_DIR)\i386\tools.obj \
+    $(_OBJ_DIR)\i386\hook.obj \
+    $(_OBJ_DIR)\i386\ldasm.obj \
+    $(_OBJ_DIR)\i386\list.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\xde.obj
+
+MUI_IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\drvversion.res
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\drvversion.res \
+    $(_OBJ_DIR)\ia64\main.obj \
+    $(_OBJ_DIR)\ia64\newinjectapc.obj \
+    $(_OBJ_DIR)\ia64\tools.obj \
+    $(_OBJ_DIR)\ia64\hook.obj \
+    $(_OBJ_DIR)\ia64\ldasm.obj \
+    $(_OBJ_DIR)\ia64\list.obj \
+    $(_OBJ_DIR)\ia64\debug.obj \
+    $(_OBJ_DIR)\ia64\xde.obj
+
+MUI_AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\drvversion.res
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\drvversion.res \
+    $(_OBJ_DIR)\amd64\main.obj \
+    $(_OBJ_DIR)\amd64\newinjectapc.obj \
+    $(_OBJ_DIR)\amd64\tools.obj \
+    $(_OBJ_DIR)\amd64\hook.obj \
+    $(_OBJ_DIR)\amd64\ldasm.obj \
+    $(_OBJ_DIR)\amd64\list.obj \
+    $(_OBJ_DIR)\amd64\debug.obj \
+    $(_OBJ_DIR)\amd64\xde.obj
+
+MUI_ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\drvversion.res
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\drvversion.res \
+    $(_OBJ_DIR)\arm\main.obj \
+    $(_OBJ_DIR)\arm\newinjectapc.obj \
+    $(_OBJ_DIR)\arm\tools.obj \
+    $(_OBJ_DIR)\arm\hook.obj \
+    $(_OBJ_DIR)\arm\ldasm.obj \
+    $(_OBJ_DIR)\arm\list.obj \
+    $(_OBJ_DIR)\arm\debug.obj \
+    $(_OBJ_DIR)\arm\xde.obj
+
